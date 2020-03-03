@@ -1,0 +1,3 @@
+/home/syj/work/vid_cap/build/CMakeFiles/rebuild_cache.dir
+/home/syj/work/vid_cap/build/CMakeFiles/video_cap.dir
+/home/syj/work/vid_cap/build/CMakeFiles/edit_cache.dir
