@@ -109,7 +109,6 @@ CMakeFiles/video_cap.dir/src/include/functions.cpp.o: /usr/local/include/opencv4
 
 CMakeFiles/video_cap.dir/src/main.cpp.o: ../src/include/config.h
 CMakeFiles/video_cap.dir/src/main.cpp.o: ../src/include/functions.h
-CMakeFiles/video_cap.dir/src/main.cpp.o: ../src/include/include.h
 CMakeFiles/video_cap.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
@@ -118,7 +117,6 @@ CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/check.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/core.hpp
-CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/core_c.h
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/cuda.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/cuda_types.hpp
@@ -141,7 +139,6 @@ CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/saturate.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/traits.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/types.hpp
-CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/types_c.h
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utility.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/version.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
@@ -189,7 +186,6 @@ CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/high
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp
-CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/types_c.h
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/ml.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp
 CMakeFiles/video_cap.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect.hpp

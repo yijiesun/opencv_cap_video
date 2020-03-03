@@ -2,7 +2,6 @@
 #include <termio.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "include.h"
 #include "functions.h"
 #include "config.h"
 #include <iostream> 

@@ -13,7 +13,6 @@ ${CMAKE_CURRENT_SOURCE_DIR}/src/include/config.cpp
 ${CMAKE_CURRENT_SOURCE_DIR}/src/include/config.h
 ${CMAKE_CURRENT_SOURCE_DIR}/src/include/functions.cpp  
 ${CMAKE_CURRENT_SOURCE_DIR}/src/include/functions.h
-${CMAKE_CURRENT_SOURCE_DIR}/src/include/include.h
 )
 
 
