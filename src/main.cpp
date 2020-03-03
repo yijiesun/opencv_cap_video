@@ -8,10 +8,6 @@
 #include <iostream> 
 #include <pthread.h>
 
-
-#define   NR(x)   (sizeof(x)/sizeof(x[0]+0))
-//定义枚举Keyboard的键值数据 
-
 enum
 {
 	UP = 87,
@@ -48,8 +44,6 @@ char *paramMenu[200] =
 	"＊ 3  返回                                  ＊",
 };
 
-#define DEVNAME "/dev/input/event4"
-
 int fd_kbd;
 bool isStart;
 bool quit;
@@ -82,14 +76,14 @@ void *cap_process(void *threadarg)
 		pthread_exit(NULL);
 	}
 	bool caping=false;
-	string videoFileName="../data/";
-	videoFileName+=getCurrentDate();
-	videoFileName+=".avi";
+
 	while (!quit)
 	{
-
 		if(!caping&&isStart)
 		{
+			string videoFileName="../data/";
+			videoFileName+=getCurrentDate();
+			videoFileName+=".avi";
 			outputVideo.open(videoFileName, VideoWriter::fourcc('M', 'J', 'P', 'G'), fps, Size(video_width, video_height));// 配置输出视频文件
 			externShowLog=videoFileName;
 			caping=true;
@@ -135,8 +129,6 @@ void *cap_process(void *threadarg)
 			destroyWindow("Recording...");
 		}
 		
-		
-
     }
 }
 
@@ -197,7 +189,6 @@ public:
 
 	void run()
 	{
-		
 		const char * split = " ";
 		char **paramList;
 		paramList = (char **)malloc(sizeof(char *) * 10);
@@ -399,8 +390,6 @@ public:
 
 int main(int argc,char** argv)
 {
-	isStart=false;
-	quit=false;
 	Menu menu;
 	menu.run();
 	return 0;
